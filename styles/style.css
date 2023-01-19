@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+/* Full site */
+.site-color {
+  color: #fd6e0a;
+}
+/* for nav section */
+.full-nav-sec {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 230px;
+}
+.nav-options {
+  display: flex;
+  align-items: center;
+}
+/* nav > ul >li */
+.list-op {
+  list-style: none;
+  margin-left: 50px;
+}
+/* heading of nav */
+h3.nav-head {
+  font-weight: 800;
+  font-size: 45px;
+}
+/* For top right corner button of the site */
+.top-right-btn {
+  color: white;
+  width: 150px;
+  height: 64px;
+  background-color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* the banner section where there are paragraph and hardy's pictures available */
+.banner {
+  display: flex;
+
+  align-items: center;
+  background-image: url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+.banner-writings-btns {
+  margin: 50px 230px;
+}
+/* for coloring the head of the body */
+.full-body-head {
+  background-color: #fff8f3;
+}
+/* banner button 1 for download CV */
+.banner-button1 {
+  width: 200px;
+  height: 64px;
+  background-color: #fd6e0a;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+}
+/* banner button 2 for contact */
+.banner-button2 {
+  color: #fd6e0a;
+  border-color: #fd6e0a;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 20px;
+  width: 160px;
+  height: 64px;
+  margin-left: 30px;
+  border-width: 0.5px;
+}
+/* inner writings of banner section */
+.inner-writings1 {
+  font-weight: 600;
+  font-size: 45px;
+}
+.inner-writings2 {
+  font-weight: 700;
+  font-size: 85px;
+}
+.inner-writings3 {
+  color: #757575;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 15px 0;
+}
+/* main section----About me section */
+.about-me {
+  margin: 135px 230px;
+  background-color:#FFF8F3;;
+  padding: 126px 150px;
+}
+/* heading of about me */
+.abot-me-heading {
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+.about-me-details {
+  font-weight: 400;
+  font-size: 18px;
+  color: #757575;
+}
