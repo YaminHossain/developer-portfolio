@@ -10,7 +10,7 @@
 .full-nav-sec {
   display: flex;
   justify-content: space-between;
-  margin: 50px 230px;
+  margin: 0px 230px;
 }
 .nav-options {
   display: flex;
@@ -43,16 +43,26 @@ h3.nav-head {
   display: flex;
 
   align-items: center;
-  background-image: url(../images/header_bg.png);
+  background-image: url(../images/header_bg.png); /*, url("../images/developer.png")*/
   background-repeat: no-repeat;
   background-position: bottom right;
+  padding-top:50px;
+
+}
+#banner2 {
+  background-image: url("../images/developer.png");
+  background-position: bottom left;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 .banner-writings-btns {
   margin: 50px 230px;
+
 }
 /* for coloring the head of the body */
 .full-body-head {
   background-color: #fff8f3;
+  padding-top: 50px;
 }
 /* banner button 1 for download CV */
 .banner-button1 {
@@ -95,17 +105,23 @@ h3.nav-head {
 /* main section----About me section */
 .about-me {
   margin: 135px 230px;
-  background-color:#FFF8F3;;
+  background-color: #fff8f3;
   padding: 126px 150px;
 }
 /* heading of about me */
 .abot-me-heading {
   font-weight: 700;
   font-size: 35px;
-  margin-bottom: 30px;
+  width: 169px;
+  height: 48px;
 }
 .about-me-details {
   font-weight: 400;
   font-size: 18px;
   color: #757575;
+  margin-top: 30px;
+}
+.about-me-details,
+.about-me-heading {
+  text-align: center;
 }
