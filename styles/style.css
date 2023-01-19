@@ -2,6 +2,13 @@
   margin: 0;
   font-family: "Open Sans", sans-serif;
 }
+button:hover,
+input[type="button"] {
+  cursor: pointer;
+}
+/* input[type="button"]{
+  cursor: pointer;
+} */
 /* Full site */
 .site-color {
   color: #fd6e0a;
@@ -46,8 +53,7 @@ h3.nav-head {
   background-image: url(../images/header_bg.png); /*, url("../images/developer.png")*/
   background-repeat: no-repeat;
   background-position: bottom right;
-  padding-top:50px;
-
+  padding-top: 50px;
 }
 #banner2 {
   background-image: url("../images/developer.png");
@@ -57,7 +63,6 @@ h3.nav-head {
 }
 .banner-writings-btns {
   margin: 50px 230px;
-
 }
 /* for coloring the head of the body */
 .full-body-head {
@@ -123,5 +128,23 @@ h3.nav-head {
 }
 .about-me-details,
 .about-me-heading {
+  text-align: center;
+}
+/* Information Section */
+.info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.info-about {
+  color: #757575;
+  text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+}
+.details {
+  font-weight: 700;
+  font-size: 20px;
+  color: #474747;
   text-align: center;
 }
