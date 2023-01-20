@@ -197,9 +197,105 @@ h3.nav-head {
   margin-right: 63px;
 }
 /* skill details */
-.skill-details{
+.skill-details {
   font-weight: 400;
-font-size: 16px;
-color: #757575;
-margin: 0px 33px 30px;
+  font-size: 16px;
+  color: #757575;
+  margin: 0px 33px 30px;
+}
+/* CV section */
+.cv-head {
+  margin-top: 130px;
+  font-weight: 700;
+  font-size: 35px;
+  text-align: center;
+  color: #181818;
+  margin-bottom: 113px;
+}
+/* CV button under the summary section*/
+.cv-btn {
+  color: white;
+  width: 150px;
+  height: 64px;
+  background-color: #fd6e0a;
+  font-weight: 700;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 50px auto 113px;
+}
+.cv-details {
+  display: flex;
+  margin: 0px 230px;
+}
+.cv-head-inside {
+  font-weight: 700;
+  font-size: 30px;
+  color: #474747;
+  margin-bottom: 30px;
+}
+.cv-details h4 {
+  font-weight: 700;
+  font-size: 25px;
+  color: #474747;
+  margin-bottom: 10px;
+}
+.cv-details h5 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #757575;
+  margin-bottom: 20px;
+}
+.cv-details p {
+  color: #757575;
+  margin-bottom: 30px;
+}
+.cv-box {
+  margin-right: 24px;
+}
+/* Contact section */
+.contact {
+  background-color: #fff8f3;
+  padding: 130px 230px;
+}
+.contact-container {
+  display: flex;
+}
+.contact-heading {
+  color: #181818;
+  font-weight: 700;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+.contact-container p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #474747;
+}
+.btn-control {
+  margin: 0px 15px;
+  border: none;
+  background-color: #fff8f3;
+}
+.contact-container button {
+  border: none;
+  background-color: #fff8f3;
+  margin-top: 30px;
+}
+.contact-container input {
+  border-color: #FFF8F3;
+  padding-left: 10px;
+  width: 461px;
+  height: 64px;
+  margin-bottom: 24px;
+}
+.contact-container textarea{
+  border-color: #FFF8F3;
+  width: 461px;
+  padding-left: 10px;
+  border: none;
+}
+.contact-me{
+  margin-right: 117px;
 }
