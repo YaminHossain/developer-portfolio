@@ -284,18 +284,18 @@ h3.nav-head {
   margin-top: 30px;
 }
 .contact-container input {
-  border-color: #FFF8F3;
+  border-color: #fff8f3;
   padding-left: 10px;
   width: 461px;
   height: 64px;
   margin-bottom: 24px;
 }
-.contact-container textarea{
-  border-color: #FFF8F3;
+.contact-container textarea {
+  border-color: #fff8f3;
   width: 461px;
   padding-left: 10px;
   border: none;
 }
-.contact-me{
+.contact-me {
   margin-right: 117px;
 }
